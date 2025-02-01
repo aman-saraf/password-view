@@ -6,7 +6,7 @@ buildscript {
         google()
         jcenter()
         maven {
-            url 'https://maven.scijava.org/content/repositories'
+            url 'https://maven.scijava.org/content/repositories/public'
         }
         
     }
@@ -23,9 +23,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-         maven {
-            url 'https://maven.scijava.org/content/repositories'
-        }
+        mavenCentral()
     }
 }
 
